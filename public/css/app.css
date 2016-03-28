@@ -1,0 +1,42 @@
+
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+
+
+@media (min-width: 960px){
+    .container {
+        width: 100%;
+    }
+}
+
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+      border:hidden;
+      background:rgba(0,1,0,.7);
+    }
+
+
+
+
+#head-block{
+  background: url(../img/aqva-bg.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.jumbotron {
+  text-shadow: 0 1px 3px rgba(255,255,255,.8);
+  color: rgba(0,1,0,.9);
+  height: 175px;
+  background-color:rgba(255,255,255,.0);
+}
+.jumbotron h1{
+  font-size: 16px;
+}
+
+
+
